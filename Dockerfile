@@ -57,5 +57,7 @@ CMD ["python", "hw.py"]
 # docker build -t personal-assistant .
 #2. Запуск контейнера (docker run -it {Назва побудованого образу})
 # docker run -it personal-assistant
-
-
+# docker run -it --name {myapp} {my-app}
+# Ця команда створить і запустить контейнер з іменем myapp з образу my-app в інтерактивному режимі з текстовим інтерфейсом користувача
+# 3. Якщо контейнер був зупинений: (docker start -i {назва контейнеру})
+# docker start -i goit-pyweb-hw-02
