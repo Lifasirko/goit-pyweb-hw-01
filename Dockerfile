@@ -52,4 +52,10 @@ RUN pipenv install --deploy --ignore-pipfile
 # Вказуємо команду для запуску застосунку
 CMD ["python", "hw.py"]
 
+# Команди для Docker:
+# 1. Побудова образу Docker
+# docker build -t personal-assistant .
+#2. Запуск контейнера
+# docker run -it personal-assistant
+
 
