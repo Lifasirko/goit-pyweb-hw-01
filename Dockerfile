@@ -53,9 +53,9 @@ RUN pipenv install --deploy --ignore-pipfile
 CMD ["python", "hw.py"]
 
 # Команди для Docker:
-# 1. Побудова образу Docker
+# 1. Побудова образу Docker (docker build -t {Назва образу(придумай сам)} .)
 # docker build -t personal-assistant .
-#2. Запуск контейнера
+#2. Запуск контейнера (docker run -it {Назва побудованого образу})
 # docker run -it personal-assistant
 
 
