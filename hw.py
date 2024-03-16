@@ -252,7 +252,7 @@ def main(view):
             print(show_phone(args, book))
 
         elif command == "all":
-            print(show_all(book, view))
+            show_all(book, view)
 
         elif command == "add-birthday":
             print(add_birthday(args, book))
